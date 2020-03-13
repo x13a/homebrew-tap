@@ -10,8 +10,8 @@ class Netlock < Formula
   def install
     sbin.mkpath
     system "cargo", "install", "--locked", "--root", prefix, "--path", "."
-    mv bin/"netlock", prefix/"sbin/"
-    rm_f bin
+    cp_r bin.children, sbin
+    rm_rf bin
   end
 
   def caveats; <<~EOS
