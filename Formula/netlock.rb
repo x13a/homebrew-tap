@@ -10,13 +10,14 @@ class Netlock < Formula
   def install
     sbin.mkpath
     system "cargo", "install", "--locked", "--root", prefix, "--path", "."
-    mv prefix/"bin/netlock", prefix/"sbin/"
-    rm_f prefix/"bin"
+    mv bin/"netlock", prefix/"sbin/"
+    rm_f bin
   end
 
   def caveats; <<~EOS
     In many cases netlock requires root privileges, so you will need to run:
-      `sudo #{HOMEBREW_PREFIX}/sbin/netlock`.
+    `sudo #{HOMEBREW_PREFIX}/sbin/netlock`.
+    
     You should be certain that you trust any software you grant root privileges.
   EOS
   end
