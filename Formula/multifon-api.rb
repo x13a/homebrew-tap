@@ -8,7 +8,7 @@ class MultifonApi < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-o", "#{bin}/multifon-api", "./multifon_api"
+    system "go", "build", "-o", bin/"multifon-api", "./multifon_api"
   end
 
   test do
