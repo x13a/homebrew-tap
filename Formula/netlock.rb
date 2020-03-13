@@ -8,8 +8,8 @@ class Netlock < Formula
   depends_on "rust" => :build
 
   def install
-    sbin.mkpath
     system "cargo", "install", "--locked", "--root", prefix, "--path", "."
+    sbin.mkpath
     cp_r bin.children, sbin
     rm_rf bin
   end
