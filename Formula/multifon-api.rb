@@ -1,7 +1,7 @@
 class MultifonApi < Formula
   desc "Multifon API"
   homepage "https://bitbucket.org/x31a/multifon-api"
-  url "https://bitbucket.org/x31a/multifon-api/get/master.tar.gz"
+  url "https://bitbucket.org/x31a/multifon-api/get/0.0.14.tar.gz"
   version "0.0.14"
   sha256 "a2fb6e3ea9eedfee49a9b4d2e5088812433a75e47cf4043a03ba5b00aae8d6a4"
 

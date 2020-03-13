@@ -1,7 +1,7 @@
 class Morze < Formula
   desc "Morse coder"
   homepage "https://bitbucket.org/x31a/morze"
-  url "https://bitbucket.org/x31a/morze/get/master.tar.gz"
+  url "https://bitbucket.org/x31a/morze/get/0.0.25.tar.gz"
   version "0.0.25"
   sha256 "da59933cadafa4fe45bb4c3140bc81a6fe20fac98b060e9e51f0b5207f2973a4"
 

@@ -1,7 +1,7 @@
 class Netlock < Formula
   desc "VPN network lock (killswitch)"
   homepage "https://bitbucket.org/x31a/netlock"
-  url "https://bitbucket.org/x31a/netlock/get/master.tar.gz"
+  url "https://bitbucket.org/x31a/netlock/get/0.0.28.tar.gz"
   version "0.0.28"
   sha256 "cee6c6f23d78c462dba517f9b9eb3f3db9876d5fd3032c6510d20fbc4ffa29c2"
 
