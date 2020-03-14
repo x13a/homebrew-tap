@@ -1,5 +1,5 @@
 class Netlock < Formula
-  desc "VPN network lock (killswitch)"
+  desc "Network lock (killswitch)"
   homepage "https://bitbucket.org/x31a/netlock"
   url "https://bitbucket.org/x31a/netlock/get/0.0.28.tar.gz"
   version "0.0.28"
