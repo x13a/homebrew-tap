@@ -1,9 +1,9 @@
 class Netlock < Formula
   desc "Network lock (killswitch)"
   homepage "https://bitbucket.org/x31a/netlock"
-  url "https://bitbucket.org/x31a/netlock/get/0.0.29.tar.gz"
-  version "0.0.29"
-  sha256 "d1840de9c444494544f0936977f55d334e1fdcc3ed9ac9bf4ad81a61225bdc4c"
+  url "https://bitbucket.org/x31a/netlock/get/0.0.30.tar.gz"
+  version "0.0.30"
+  sha256 "17a6b9be70234f8998cc5efc1ae5b8a4e6946d8d9cc751d9c11371873eeac2f8"
 
   depends_on "rust" => :build
 
