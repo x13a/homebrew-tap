@@ -1,9 +1,9 @@
 class Morze < Formula
   desc "Morse coder"
   homepage "https://bitbucket.org/x31a/morze"
-  url "https://bitbucket.org/x31a/morze/get/0.0.26.tar.gz"
-  version "0.0.26"
-  sha256 "0e8843f61bd547762635d7f5d9b90bc389d8ec222c1799a362f52f7da1c93de5"
+  url "https://bitbucket.org/x31a/morze/get/0.0.27.tar.gz"
+  version "0.0.27"
+  sha256 "3dee0002b9ae3021eab4f59cb8e01dda957a43c320f793825fb6cf229cb4832f"
 
   depends_on "rust" => :build
 
