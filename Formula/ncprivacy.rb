@@ -5,7 +5,8 @@ class Ncprivacy < Formula
   homepage "https://bitbucket.org/x31a/ncprivacy"
   url "https://bitbucket.org/x31a/ncprivacy/get/0.0.7.tar.gz"
   version "0.0.7"
-  sha256 "e60e8baca15306c38f033ad04fac0e5042bc8663c9100fff86aaef4b0e1064d5"
+  sha256 "1a295b6711d4f9d29f11388d71900d97ecbf6c85bb9e084152031b849a3edfa1"
+  revision 1
 
   depends_on "python@3.8"
 
