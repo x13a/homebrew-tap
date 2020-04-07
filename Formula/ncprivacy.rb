@@ -3,10 +3,9 @@ class Ncprivacy < Formula
 
   desc "MacOS Notification Center Privacy"
   homepage "https://bitbucket.org/x31a/ncprivacy"
-  url "https://bitbucket.org/x31a/ncprivacy/get/0.0.7.tar.gz"
-  version "0.0.7"
-  sha256 "2ccf2b2b3ed3e551935cb68faf87a2088a4ec31e6b069e2242fe251e3b81bc41"
-  revision 2
+  url "https://bitbucket.org/x31a/ncprivacy/get/0.1.0.tar.gz"
+  version "0.1.0"
+  sha256 "83d49cdd0406d94f066340e618459ed05c4057dfffbad661fd1723750ac6ee26"
 
   depends_on "python@3.8"
 
