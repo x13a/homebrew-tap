@@ -1,9 +1,9 @@
 class MultifonApi < Formula
   desc "Multifon API"
   homepage "https://bitbucket.org/x31a/multifon-api"
-  url "https://bitbucket.org/x31a/multifon-api/get/0.1.7.tar.gz"
-  version "0.1.7"
-  sha256 "1443f8eac4970c6d4f41742a085eb7c89729b7328b14a36486a5fbcdad62b0a3"
+  url "https://bitbucket.org/x31a/multifon-api/get/0.1.8.tar.gz"
+  version "0.1.8"
+  sha256 "682bf0fb6db1cfb30b63f8a4443ce27b0953ceed3fe6b78568d0e1cda610bdf1"
 
   depends_on "go" => :build
 
