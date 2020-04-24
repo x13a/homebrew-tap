@@ -1,10 +1,9 @@
 class Cleaner < Formula
   desc ""
-  version "0.0.4"
   homepage "https://bitbucket.org/x31a/cleaner"
-  url "#{homepage}/get/#{version}.tar.gz"
+  url "#{homepage}/get/0.0.4.tar.gz"
   sha256 "1daf1a555703debd45eed63c7fa4cbb0219d5ca626b7438c502793731fca0e99"
-  revision 1
+  revision 2
 
   depends_on "go" => :build
 
