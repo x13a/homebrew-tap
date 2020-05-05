@@ -1,9 +1,8 @@
 class Ncprivacy < Formula
   include Language::Python::Virtualenv
 
-  version "0.1.0"
-  sha256 "dc4378ce0772cd46b8dc2da497c2c84274d7748ea4795685abbba8091021617a"
-  revision 6
+  version "0.1.1"
+  sha256 "1d0ccbda668476ea694027d849f51fc97b90eb6a93f85a705f8e5abc75ab6762"
 
   desc "MacOS Notification Center Privacy"
   homepage "https://bitbucket.org/x31a/ncprivacy"
@@ -16,6 +15,6 @@ class Ncprivacy < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/#{name} --version 2>&1")
+    assert_match version.to_s, shell_output("#{bin}/#{name} -V 2>&1")
   end
 end
