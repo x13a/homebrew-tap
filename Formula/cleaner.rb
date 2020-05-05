@@ -1,7 +1,6 @@
 class Cleaner < Formula
-  version "0.0.4"
-  sha256 "4c5702aac4f47b58f3dfcff0dc5dd1e776822d6c33ffe0379fa7637ed4914466"
-  revision 5
+  version "0.0.5"
+  sha256 "6d6f31d15b59e6ac1d484ecad2d2f1f5d38d7390899f40a2acc85c625741b648"
 
   desc ""
   homepage "https://bitbucket.org/x31a/cleaner"
