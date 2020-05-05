@@ -1,8 +1,8 @@
 class Ncprivacy < Formula
   include Language::Python::Virtualenv
 
-  version "0.1.1"
-  sha256 "1d0ccbda668476ea694027d849f51fc97b90eb6a93f85a705f8e5abc75ab6762"
+  version "0.1.2"
+  sha256 "5b4492f3cb20217d18ebd21a91cdb170db8d32e727d00d303622debc415765cf"
 
   desc "MacOS Notification Center Privacy"
   homepage "https://bitbucket.org/x31a/ncprivacy"
