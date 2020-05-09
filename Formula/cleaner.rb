@@ -1,8 +1,9 @@
 class Cleaner < Formula
   version "0.0.6"
   sha256 "8fc48eb412ed2fca94dc06daf14878b602d9c880dbf8cd24a14d7eda5969eee4"
+  revision 1
 
-  desc ""
+  desc "Run predefined tasks on signal receive"
   homepage "https://bitbucket.org/x31a/cleaner"
   url "#{homepage}/get/#{version}.tar.gz"
 
