@@ -1,9 +1,9 @@
-class Cleaner < Formula
-  version "0.0.7"
-  sha256 "18e4199fc087e239052505d137d7d26e090bace2ee6d8c690e98cca8492abf50"
+class Wanted < Formula
+  version "0.0.8"
+  sha256 "e856932c1716364555b418f4468cd24a129e3e6b965531eb1daaf8c8e734f912"
 
   desc "Run predefined tasks on signal receive"
-  homepage "https://bitbucket.org/x31a/cleaner"
+  homepage "https://bitbucket.org/x31a/wanted"
   url "#{homepage}/get/#{version}.tar.gz"
 
   depends_on "go" => :build
