@@ -1,7 +1,7 @@
 class MultifonApi < Formula
   version "0.1.13"
-  sha256 "89b48b34308dfca8db7b6c7a76b8490f87e78f4bf9d129274d9d5ebc27b6a721"
-  revision 3
+  sha256 "5d345955b1f0f66c747a55eeab8d4ed866f3fd1c758062a4753d73c9b5466e9e"
+  revision 4
 
   desc "Multifon API"
   homepage "https://bitbucket.org/x31a/multifon-api"
