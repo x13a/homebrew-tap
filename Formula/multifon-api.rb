@@ -1,6 +1,6 @@
 class MultifonApi < Formula
-  version "0.1.17"
-  sha256 "9facec7d65d5e63355fe64f6718c78c0e15eb0996f7ee03871fbc05ddb6bb3b6"
+  version "0.1.18"
+  sha256 "4a512fc20ba358f34d148d80a3be4edb1dcb5366e3249628ae6e8a7619424bcd"
 
   desc "Multifon API"
   homepage "https://bitbucket.org/x31a/multifon-api"
@@ -9,10 +9,10 @@ class MultifonApi < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-o", bin/"#{name}", "./src"
+    system "go", "build", "-o", bin/"multifon", "./src"
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/#{name} -V 2>&1")
+    assert_match version.to_s, shell_output("#{bin}/multifon -V 2>&1")
   end
 end
