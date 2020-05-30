@@ -1,6 +1,6 @@
 class Wanted < Formula
-  version "0.0.11"
-  sha256 "421f63578b5b9ce0330b3c8682b60d02181b580abf8637089c4c9f3f06d12c97"
+  version "0.0.12"
+  sha256 "8216fa32abbb58de61f631f8deb228be81058227bfd10de0699eb91e36db52e5"
 
   desc "Run predefined tasks on signal receive"
   homepage "https://bitbucket.org/x31a/wanted"
