@@ -1,6 +1,7 @@
 class Netlock < Formula
   version "0.1.3"
   sha256 "4116448e8a20da48cf397f1afd8fb6de2fc3b9ab8b48e2a4b7ebb75e4c5e261c"
+  revision 1
 
   desc "Network lock (killswitch)"
   homepage "https://bitbucket.org/x31a/netlock"
@@ -16,8 +17,10 @@ class Netlock < Formula
   end
 
   def caveats; <<~EOS
-    In many cases netlock requires root privileges, so you will need to run:
-    `sudo #{HOMEBREW_PREFIX}/sbin/#{name}`.
+    Cause `#{name}` requires root privileges, you have to set right permissions:
+
+    $ sudo chown -R root:admin #{sbin}/
+    $ sudo chmod +t #{sbin}/
     
     You should be certain that you trust any software you grant root privileges.
   EOS
