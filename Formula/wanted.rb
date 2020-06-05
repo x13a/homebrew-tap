@@ -1,15 +1,15 @@
 class Wanted < Formula
-  version "0.0.16"
-  sha256 "01f669d94206d821944322968533ce939c0161def249cb986af9c9f7e7cf383f"
+  version "0.1.2"
+  sha256 "47dc6048e46b65e9b5f262d5d9f1fba51cd782366cd43b9164046b557a813e8e"
 
-  desc "Run predefined tasks on signal receive"
+  desc "Run predefined tasks on signal or broadcast receive"
   homepage "https://bitbucket.org/x31a/wanted"
   url "#{homepage}/get/#{version}.tar.gz"
 
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-o", bin/"#{name}", "./src"
+    system "go", "build", "-o", bin/"#{name}", "./src/"
   end
 
   test do
