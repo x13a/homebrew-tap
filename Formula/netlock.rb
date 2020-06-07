@@ -1,7 +1,7 @@
 class Netlock < Formula
   version "0.1.3"
-  sha256 "4116448e8a20da48cf397f1afd8fb6de2fc3b9ab8b48e2a4b7ebb75e4c5e261c"
-  revision 1
+  sha256 "f69d5f47166395ca3ca73b08043225bbb307c6635c0d055b20440cca7e5e2ff2"
+  revision 2
 
   desc "Network lock (killswitch)"
   homepage "https://bitbucket.org/x31a/netlock"
