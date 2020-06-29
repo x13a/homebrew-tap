@@ -1,6 +1,6 @@
 class MultifonApi < Formula
-  version "0.2.1"
-  sha256 "0feef0577de4f225e7de3d03dafa94f2c5a285d6e9575afb75c1e2a35b04b45a"
+  version "0.3.0"
+  sha256 "200e406b372debf0be28c91c5e674fbf54c80e0d97bf72e688a0826e91156619"
 
   desc "Multifon API"
   homepage "https://bitbucket.org/x31a/multifon-api"
@@ -10,14 +10,7 @@ class MultifonApi < Formula
 
   def install
     system "make"
-    system "make", "install", "PREFIX=#{prefix}"
-    prefix.install "config/"
-    chmod 0600, prefix/"config/multifon.json"
-  end
-
-  def caveats; <<~EOS
-    Config sample filepath is #{prefix}/config/multifon.json
-  EOS
+    system "make", "install", "prefix=#{prefix}"
   end
 
   test do
