@@ -1,8 +1,8 @@
 class LaunchProxy < Formula
-  version "0.0.1"
-  sha256 "cc88c651375d3da4362474783263c409c725285c4bc112693f77e1a48975b425"
+  version "0.1.0"
+  sha256 "902188b0159748e848ac035b042b1be8dc2c31111b921a63e819427cb357b41b"
 
-  desc "Launch service proxy for macOS"
+  desc "Launch daemon sockets proxy for macOS"
   homepage "https://bitbucket.org/x31a/launch-proxy"
   url "#{homepage}/get/#{version}.tar.gz"
 
@@ -11,7 +11,7 @@ class LaunchProxy < Formula
   def install
     system "make"
     sbin.install "./target/#{name}"
-    prefix.install "./plist/"
+    pkgshare.install "./plist/me.lucky.#{name}.plist"
   end
 
   test do
