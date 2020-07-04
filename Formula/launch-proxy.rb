@@ -1,6 +1,6 @@
 class LaunchProxy < Formula
-  version "0.1.3"
-  sha256 "b080a0987ae2415679c3475f32aeece8e3352df5fcc3cacee672e7decf4ba7f4"
+  version "0.1.4"
+  sha256 "d899ce4b47f613d4d5709b52148850169594b14bc304e0bdf6aadef12ae92416"
 
   desc "Launch daemon sockets proxy for macOS"
   homepage "https://bitbucket.org/x31a/launch-proxy"
