@@ -1,6 +1,6 @@
 class LaunchProxy < Formula
-  version "0.1.4"
-  sha256 "d899ce4b47f613d4d5709b52148850169594b14bc304e0bdf6aadef12ae92416"
+  version "0.1.5"
+  sha256 "0570f440a8118a0f02cf2ffed176aafe3f8336e13e8645f01fd0d68afdb6c1c6"
 
   desc "Launch daemon sockets proxy for macOS"
   homepage "https://bitbucket.org/x31a/launch-proxy"
@@ -52,10 +52,6 @@ class LaunchProxy < Formula
             <string>domain</string>
             <key>SockType</key>
             <string>stream</string>
-            <key>SockFamily</key>
-            <string>IPv4</string>
-            <key>SockProtocol</key>
-            <string>TCP</string>
           </dict>
           <key>udp4</key>
           <dict>
@@ -65,10 +61,6 @@ class LaunchProxy < Formula
             <string>domain</string>
             <key>SockType</key>
             <string>dgram</string>
-            <key>SockFamily</key>
-            <string>IPv4</string>
-            <key>SockProtocol</key>
-            <string>UDP</string>
           </dict>
         </dict>
       </dict>
