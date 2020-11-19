@@ -1,9 +1,9 @@
-class LaunchProxy < Formula
-  version "0.1.6"
-  sha256 "63ac962cde83da983245976a02216a19bb1097e4fcdfd14036b2eecce565dbf7"
+class InitProxyd < Formula
+  version "0.1.7"
+  sha256 "1747e48c85a8ef9ba0e89976f012c619eb117a5ec41320210c64f5a3b38182dd"
 
   desc "Launch daemon sockets proxy for macOS"
-  homepage "https://bitbucket.org/x31a/launch-proxy"
+  homepage "https://bitbucket.org/x31a/init-proxyd"
   url "#{homepage}/get/#{version}.tar.gz"
 
   depends_on "go" => :build
