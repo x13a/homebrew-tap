@@ -1,6 +1,7 @@
 class InitProxyd < Formula
   version "0.1.7"
   sha256 "1747e48c85a8ef9ba0e89976f012c619eb117a5ec41320210c64f5a3b38182dd"
+  revision 1
 
   desc "Launch daemon sockets proxy for macOS"
   homepage "https://bitbucket.org/x31a/init-proxyd"
@@ -31,7 +32,7 @@ class InitProxyd < Formula
           <string>#{opt_sbin}/#{name}</string>
           <string>-d</string>
           <string>:5350</string>
-          <string>-p</string>
+          <string>-c</string>
           <string>/Library/LaunchDaemons/#{plist_name}</string>
         </array>
         <key>UserName</key>
