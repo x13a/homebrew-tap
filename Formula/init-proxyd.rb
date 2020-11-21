@@ -1,7 +1,6 @@
 class InitProxyd < Formula
-  version "0.1.7"
-  sha256 "1747e48c85a8ef9ba0e89976f012c619eb117a5ec41320210c64f5a3b38182dd"
-  revision 1
+  version "0.1.8"
+  sha256 "dff7f999f9e9085db15f1fdb760f2d35c478684766ce9c54bfae4e63b233a3a2"
 
   desc "Launch daemon sockets proxy for macOS"
   homepage "https://bitbucket.org/x31a/init-proxyd"
