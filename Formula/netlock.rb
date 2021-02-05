@@ -1,26 +1,17 @@
 class Netlock < Formula
   version "0.1.4"
-  sha256 "63e623923d5fdd6385a9e49357e080a4c63b7204868b62a670596373fed0e605"
+  sha256 "25d4b99da89b65a09d5a5d50d273fef0cd995683cf3adf6eb2ceb0e106ce4bec"
+  revision 1
 
-  desc "Network lock (killswitch)"
-  homepage "https://bitbucket.org/x31a/netlock"
-  url "#{homepage}/get/#{version}.tar.gz"
+  desc "Network lock (vpn killswitch)"
+  homepage "https://github.com/x13a/netlock"
+  url "#{homepage}/archive/#{version}.tar.gz"
 
   depends_on "rust" => :build
 
   def install
     system "make"
-    sbin.install "./target/release/#{name}"
-  end
-
-  def caveats; <<~EOS
-    Cause `#{name}` requires root privileges, you have to set right permissions:
-
-    $ sudo chown -R root:admin #{sbin}/
-    $ sudo chmod +t #{sbin}/
-    
-    You should be certain that you trust any software you grant root privileges.
-  EOS
+    system "make", "install", "prefix=#{prefix}"
   end
 
   test do
