@@ -1,10 +1,10 @@
 class MultifonApi < Formula
-  version "0.1.0"
-  sha256 "f873bee132dee2414135c27f545941d5dbfb01520c9b78d65bb81dcf1660462a"
+  version "0.1.1"
+  sha256 "8db11a686b3e9330b8b0abe66144bb5c8cd71b1a42d67b1cb20a628970b2e6d6"
 
   desc "Multifon API"
-  homepage "https://bitbucket.org/x31a/multifon-api"
-  url "#{homepage}/get/#{version}.tar.gz"
+  homepage "https://github.com/x13a/multifon-api"
+  url "#{homepage}/archive/#{version}.tar.gz"
 
   depends_on "rust" => :build
 
