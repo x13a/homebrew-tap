@@ -2,9 +2,10 @@ class Ncdata < Formula
   include Language::Python::Virtualenv
 
   version "0.1.5"
-  sha256 "967e6fb4e32b8f9ee79bb39f40d9339e4db083cf42854eaec728d4f33ed29130"
+  sha256 "cb17ba2bcd69cd7e2337a7d7e3b742d059a6796ba695f283495fa42da9ed832d"
+  revision 1
 
-  desc "MacOS Notification Center Data"
+  desc "View saved macOS notifications and.. remove them."
   homepage "https://github.com/x13a/ncdata"
   url "#{homepage}/archive/#{version}.tar.gz"
 
