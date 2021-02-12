@@ -1,6 +1,7 @@
 class InitProxyd < Formula
   version "0.2.1"
-  sha256 "e0b15ba7fb325fc6830077825ddb1532475b1aa3bcd1d11be31e96959898e265"
+  sha256 "8c431aa179ad19ecb8a9414966cea4433324c5805da9e3e72b1a1dd8acd17f64"
+  revision 1
 
   desc "Init daemon socket activation proxy"
   homepage "https://github.com/x13a/init-proxyd"
