@@ -1,7 +1,6 @@
 class ExecGuard < Formula
-  version "0.1.0"
-  sha256 "6aec11776ee2c8f9483674fba2aa2a41405eefafbb2b23d2b7ce8293129c60b1"
-  revision 1
+  version "0.2.0"
+  sha256 "62c400f2490f6e069532b4ca575a11052729dff12957e26e54763b95a2aacced"
   
   desc "Binary execution guard"
   homepage "https://github.com/x13a/exec-guard"
