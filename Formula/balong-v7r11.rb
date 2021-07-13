@@ -1,7 +1,6 @@
 class BalongV7r11 < Formula
-    version "0.1.0"
-    sha256 "716f126a637c95a68636e2ce8499fb11453939dcb24b5376032af72f475af434"
-    revision 2
+    version "0.2.0"
+    sha256 "600b70f11fcfbe95880ce66545b2a3c50f6149c608df72fb5be4b1232b10a0b9"
     
     desc "Bruteforce OEM and NCK codes for Balong V7R11"
     homepage "https://github.com/x13a/balong-v7r11"
