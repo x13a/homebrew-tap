@@ -1,6 +1,6 @@
 class TgPrompt < Formula
-  version "0.1.0"
-  sha256 "4365eaa6ffab3ed4512246126acdd28207c89c2084492ed4f81538f9a9f14ce1"
+  version "0.1.1"
+  sha256 "f470c46828ee99c99beff1bd36a4e3a41d8b6af374cb68f497aab497481faa88"
 
   desc "Telegram prompt"
   homepage "https://github.com/x13a/tg-prompt"
