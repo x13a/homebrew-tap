@@ -1,9 +1,9 @@
-class ExecGuard < Formula
-  version "0.3.1"
-  sha256 "ebbe4595a0ecf023367b24aa2275ac14c5664c9e1f09e0ceefb5c38daa75336f"
+class Gexec < Formula
+  version "0.3.2"
+  sha256 "0bd6ec2a4da71c0dbbec40f62b3021e320edfe803eab07714ee77ba9a0d9ac96"
   
   desc "Execution guard"
-  homepage "https://github.com/x13a/exec-guard"
+  homepage "https://github.com/x13a/gexec"
   url "#{homepage}/archive/#{version}.tar.gz"
   
   depends_on "rust" => :build
