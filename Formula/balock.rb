@@ -1,12 +1,12 @@
-class InitProxyd < Formula
+class Balock < Formula
   version "0.2.2"
-  sha256 "dfdcbb3a4edda7594aa5035fda0cb8e29b20dce6fb3c2e54d1bfb9cd0cace800"
+  sha256 "47360eba83b1a4f7b516cd38132b189beea4221c8d6d7cc77794d3ac4c516d5c"
 
-  desc "Init daemons socket activation proxy"
-  homepage "https://github.com/x13a/init-proxyd"
+  desc "Bruteforce OEM and NCK codes for Balong V7R11"
+  homepage "https://github.com/x13a/balock"
   url "#{homepage}/archive/#{version}.tar.gz"
 
-  depends_on "go" => :build
+  depends_on "zig" => :build
 
   def install
     system "make"
