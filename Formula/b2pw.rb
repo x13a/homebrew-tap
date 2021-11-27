@@ -18,4 +18,3 @@ class B2pw < Formula
     assert_match version.to_s, shell_output("#{opt}/#{name} -V 2>&1")
   end
 end
-  
