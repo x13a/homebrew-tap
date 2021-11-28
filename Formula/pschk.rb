@@ -1,6 +1,6 @@
 class Pschk < Formula
-  version "0.1.0"
-  sha256 "3aa5f9c6d9fd8bb9a8845b67fc36b9135c9636906e725c6e562f77fe32d2082b"
+  version "0.1.1"
+  sha256 "63bcb5d7678915982a15d968ed008d1901704121c91501a37d9bcb32e1529da4"
 
   desc "Find suspicious processes"
   homepage "https://github.com/x13a/pschk"
