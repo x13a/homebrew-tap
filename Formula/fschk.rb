@@ -1,6 +1,6 @@
 class Fschk < Formula
-  version "0.1.1"
-  sha256 "2387ef445f351347c6099ab36b9a78eb9e215a893624aabdaf494d10caf91d46"
+  version "0.1.2"
+  sha256 "231edbecd1d4ff284c3abdc53e5a00f82b17cdeb8c445b40598ebdbf9f0cc325"
 
   desc "List persistence items on macOS"
   homepage "https://github.com/x13a/fschk"
