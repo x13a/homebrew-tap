@@ -1,6 +1,6 @@
 class Pschk < Formula
-  version "0.1.6"
-  sha256 "7d15a59bd1770d2ea0261e4ce47f0eb4d2d688966239b1b89c5e4dd4d8626f09"
+  version "0.1.7"
+  sha256 "5be871f678e4b4906757be3303469ef689bc19c8d4572147a17108a0c9342622"
 
   desc "Check for suspicious processes on macOS"
   homepage "https://github.com/x13a/pschk"
