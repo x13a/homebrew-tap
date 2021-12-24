@@ -1,6 +1,6 @@
 class B2pw < Formula
-  version "0.3.0"
-  sha256 "52c51a861f8f898a60f3d15f506d5aa0905664f52d5fe979d57280d87397dba8"
+  version "0.3.1"
+  sha256 "62d9456035c0f983abe466e418f6f17a45a26518abd24aba5345568fd99ecfe7"
 
   desc "Convert bytes to password"
   homepage "https://github.com/x13a/b2pw"
