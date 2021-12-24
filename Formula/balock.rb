@@ -1,6 +1,6 @@
 class Balock < Formula
-  version "0.2.2"
-  sha256 "47360eba83b1a4f7b516cd38132b189beea4221c8d6d7cc77794d3ac4c516d5c"
+  version "0.2.3"
+  sha256 "8d64c2f340c72d29060b14cf1022c2479a3aa789e7c8d66b194500f482327637"
 
   desc "Bruteforce OEM and NCK codes for Balong V7R11"
   homepage "https://github.com/x13a/balock"
