@@ -1,9 +1,9 @@
-class TgPrompt < Formula
-  version "0.1.1"
-  sha256 "f470c46828ee99c99beff1bd36a4e3a41d8b6af374cb68f497aab497481faa88"
+class BotPrompt < Formula
+  version "0.2.0"
+  sha256 "c5c06f517c5f699eb51b1da16f50aae8daf1428c8ebfd292c0b4f87418f56059"
 
-  desc "Telegram prompt"
-  homepage "https://github.com/x13a/tg-prompt"
+  desc "Bot prompt"
+  homepage "https://github.com/x13a/bot-prompt"
   url "#{homepage}/archive/#{version}.tar.gz"
 
   depends_on "rust" => :build
