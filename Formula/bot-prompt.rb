@@ -1,6 +1,6 @@
 class BotPrompt < Formula
-  version "0.2.0"
-  sha256 "c5c06f517c5f699eb51b1da16f50aae8daf1428c8ebfd292c0b4f87418f56059"
+  version "0.2.1"
+  sha256 "c8b13fbf5f324e40ae349158ee0fe27e0d2aef00d1ba2525d78f20c88ed0610a"
 
   desc "Bot prompt"
   homepage "https://github.com/x13a/bot-prompt"
