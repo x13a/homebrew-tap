@@ -1,9 +1,9 @@
-class BotPrompt < Formula
-  version "0.2.1"
-  sha256 "c8b13fbf5f324e40ae349158ee0fe27e0d2aef00d1ba2525d78f20c88ed0610a"
+class PromptBot < Formula
+  version "0.2.2"
+  sha256 "dc226fb665df5c31b8dc922eecc0473da9c5418fcd58fca1510a5a6a6e5ddf30"
 
-  desc "Bot prompt"
-  homepage "https://github.com/x13a/bot-prompt"
+  desc "Prompt bot"
+  homepage "https://github.com/x13a/prompt-bot"
   url "#{homepage}/archive/#{version}.tar.gz"
 
   depends_on "rust" => :build
