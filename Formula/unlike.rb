@@ -1,6 +1,6 @@
 class Unlike < Formula
-  version "0.1.0"
-  sha256 "880fbc8eb0e1f2566a602ed4c77671bee73f49ca337bcd1b6da1ba0b69d991aa"
+  version "0.1.1"
+  sha256 "07caed510333c93fca8e142e40e306c363fb24530fd5ed5c439da906e07695be"
 
   desc "Unlike old tweets"
   homepage "https://github.com/x13a/unlike"
