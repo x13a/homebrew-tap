@@ -7,7 +7,7 @@ class Fschk < Formula
   url "#{homepage}/archive/#{version}.tar.gz"
 
   def install
-    system "make"
+    system "swift", "build", "-c", "release", "--disable-sandbox"
     system "make", "install", "prefix=#{prefix}"
   end
 
